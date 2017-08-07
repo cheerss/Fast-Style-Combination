@@ -34,7 +34,7 @@ The style pictures are as follows:
 
 ![output](examples/2-output.jpg)
 
-The content input image was a picture of the Stata Center at MIT:
+The content input image is Tubingen, German:
 
 ![input-content](examples/2-content.jpg)
 
