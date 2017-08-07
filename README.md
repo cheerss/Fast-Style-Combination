@@ -1,6 +1,6 @@
 # Fast Style Combination
 
-Thanks [neural_style][original_code] for the original code of [neural style][paper].
+Thanks [neural_style][original-code] for the original code of [neural style][paper].
 
 We modify the algorithms of [neural style][paper] to combine the styles of different images and speed up the orignal algorithm.
 
@@ -15,30 +15,11 @@ Run `python neural_style.py --help` to see a list of all options.
 
 Use `--checkpoint-output` and `--checkpoint-iterations` to save checkpoint images.
 
-Use `--iterations` to change the number of iterations (default 1000).  For a 512×512 pixel content file, 1000 iterations take 2.5 minutes on a GeForce GTX Titan X GPU, or 90 minutes on an Intel Core i7-5930K CPU.
+Use `--iterations` to change the number of iterations (default 150).
 
-## Example 1
+## Example
 
-Running it for about 150-500 iterations seems to produce nice results. With certain
-images or output sizes, you might need some hyperparameter tuning (especially
-`--content-weight`, `--style-weight`, and `--learning-rate`).
-
-The following example was run for 150 iterations to produce the result (with
-default parameters):
-
-![output](examples/1-output.jpg)
-
-These were the input images used (me sleeping at a hackathon and Starry Night):
-
-![input-content](examples/1-content.jpg)
-
-![input-style](examples/1-style.jpg)
-
-## Example 2
-
-The following example demonstrates style blending, and was run for 1000
-iterations to produce the result (with style blend weight parameters 0.8 and
-0.2):
+Run `python neural_style.py --content <content file> --styles <style file> --output <output file>`
 
 ![output](examples/2-output.jpg)
 
