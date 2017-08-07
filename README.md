@@ -1,6 +1,6 @@
 # Fast Style Combination
 
-Thanks [neural_style][original-code] for the original code of [neural style][paper].
+Thanks [https://github.com/anishathalye/neural-style][original-code] for the original code of [neural style][paper].
 
 We modify the algorithms of [neural style][paper] to combine the styles of different images and speed up the orignal algorithm.
 
@@ -18,8 +18,6 @@ Use `--checkpoint-output` and `--checkpoint-iterations` to save checkpoint image
 Use `--iterations` to change the number of iterations (default 150).
 
 ## Example
-
-Run `python neural_style.py --content <content file> --styles <style file> --output <output file>`
 
 ![output](examples/1-output.jpg)
 
@@ -43,6 +41,7 @@ The style pictures are as follows:
 ## Noted
 
 Run `bash run.sh` for examples
+
 Multiple style pictures to be combined must be of the same size. 
 
 ## License
