@@ -17,8 +17,7 @@ Use `--checkpoint-output` and `--checkpoint-iterations` to save checkpoint image
 
 Use `--iterations` to change the number of iterations (default 150).
 
-## Example
-
+## Example1
 ![output](examples/1-output.jpg)
 
 The content input image was a picture of the Stata Center at MIT:
@@ -29,6 +28,20 @@ The style pictures are as follows:
 
 ![input-style](examples/1-style1.jpg)
 ![input-style](examples/1-style2.jpg)
+
+
+## Example2
+
+![output](examples/2-output.jpg)
+
+The content input image was a picture of the Stata Center at MIT:
+
+![input-content](examples/2-content.jpg)
+
+The style pictures are as follows:
+
+![input-style](examples/2-style1.jpg)
+![input-style](examples/2-style2.jpg)
 
 ## Requirements
 
